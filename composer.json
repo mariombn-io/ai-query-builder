@@ -1,0 +1,21 @@
+{
+    "name": "mariombn-io/ia-query-builder",
+    "description": "Generate Eloquent querys from natural languege",
+    "type": "library",
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0",
+        "illuminate/database": "^8.0|^9.0|^10.0|^11.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MariombnIo\\IaQueryBuilder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mario de Moraes"
+        }
+    ]
+}
